@@ -1,0 +1,32 @@
+{
+  "thumbnail": {
+    "url": "static/gallery/sample/cover.jpg",
+    "alt": "Vista principal del proyecto Sample"
+  },
+  "images": [
+    {
+      "url": "static/gallery/sample/cover.jpg",
+      "alt": "Vista principal del proyecto Sample"
+    },
+    {
+      "url": "static/gallery/sample/extra1.jpg",
+      "alt": "Otra imagen del proyecto Sample"
+    },
+    {
+      "url": "static/gallery/sample/extra1.jpg",
+      "alt": "Otra imagen del proyecto Sample"
+    },
+    {
+      "url": "static/gallery/sample/extra1.jpg",
+      "alt": "Otra imagen del proyecto Sample"
+    },
+    {
+      "url": "static/gallery/sample/extra1.jpg",
+      "alt": "Otra imagen del proyecto Sample"
+    },
+    {
+      "url": "static/gallery/sample/extra1.jpg",
+      "alt": "Otra imagen del proyecto Sample"
+    }
+  ]
+}

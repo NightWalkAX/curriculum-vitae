@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="header.title">José Yoel Mendoza Leyva - Desarrollador Backend</title>
+    <meta name="description" data-i18n="meta.description" content="Currículum de José Yoel Mendoza Leyva, desarrollador backend especializado en Python, Flask, FastAPI y automatización con bots de Telegram.">
+    <meta name="keywords" content="José Yoel Mendoza Leyva, backend, Python, Flask, FastAPI, APIs, desarrollador, curriculum, SQL, Telegram Bot, testing, Swagger, Cuba, Holguín">
+    <meta name="author" content="José Yoel Mendoza Leyva">
+    <meta property="og:title" data-i18n="header.title" content="José Yoel Mendoza Leyva - Desarrollador Backend">
+    <meta property="og:description" data-i18n="meta.description" content="Currículum de José Yoel Mendoza Leyva, desarrollador backend especializado en Python, Flask, FastAPI y automatización con bots de Telegram.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/jymendev">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/92989582?v=4">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" data-i18n="header.title" content="José Yoel Mendoza Leyva - Desarrollador Backend">
+    <meta name="twitter:description" data-i18n="meta.description" content="Currículum de José Yoel Mendoza Leyva, desarrollador backend especializado en Python, Flask, FastAPI y automatización con bots de Telegram.">
+    <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/92989582?v=4">
+    <link rel="canonical" href="https://github.com/jymendev">
+    <link rel="alternate" hreflang="es" href="https://github.com/jymendev">
+    <link rel="alternate" hreflang="en" href="https://github.com/jymendev?lang=en">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <script>
+        // Detecta el idioma preferido del usuario y cambia el atributo lang y los textos
+        document.addEventListener('DOMContentLoaded', function () {
+            const userLang = (navigator.language || navigator.userLanguage || 'es').substring(0, 2);
+            const supportedLangs = ['es', 'en'];
+            const lang = supportedLangs.includes(userLang) ? userLang : 'es';
+            document.documentElement.lang = lang;
+            // Aquí puedes llamar a tu función de traducción si tienes una
+            if (typeof window.setLanguage === 'function') {
+                window.setLanguage(lang);
+            }
+        });
+    </script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563eb',
+                        secondary: '#1e40af',
+                        accent: '#3b82f6',
+                        dark: '#1f2937',
+                        light: '#f9fafb'
+                    },
+                    fontFamily: {
+                        montserrat: ['Montserrat', 'sans-serif'],
+                        roboto: ['Roboto', 'sans-serif']
+                    }
+                }
+            },
+            darkMode: 'class',
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f3f4f6;
+        }
+        h1, h2, h3, h4 {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .section-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .section-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        .skill-bar {
+            height: 6px;
+            border-radius: 3px;
+        }
+        .floating-btn {
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        .mode-toggle {
+            transition: all 0.3s ease;
+        }
+
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-100">
+    <!-- Botón modo oscuro/claro -->
+    <button id="modeToggle" class="fixed top-4 right-4 z-50 p-3 bg-blue-600 text-white rounded-full shadow-lg mode-toggle hover:bg-blue-700">
+        <i id="modeIcon" class="fas fa-moon"></i>
+    </button>
+
+    <!-- Contenedor principal -->
+    <div class="max-w-4xl mx-auto px-4 py-8">
+        <!-- Encabezado -->
+        <header class="bg-gradient-to-r from-primary to-secondary text-white rounded-2xl shadow-xl p-6 md:p-8 mb-8 relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-blue-300 rounded-full opacity-20 transform translate-x-12 -translate-y-12"></div>
+            <div class="absolute bottom-0 left-0 w-40 h-40 bg-blue-400 rounded-full opacity-20 transform -translate-x-16 translate-y-16"></div>
+            
+            <div class="relative z-10 flex flex-col md:flex-row items-center">
+                <div class="md:mr-6 mb-4 md:mb-0">
+                    <a href="https://github.com/NightWalkAX" target="_blank" rel="noopener noreferrer" 
+                       class="group bg-gray-200 border-2 border-dashed rounded-xl w-32 h-32 flex items-center justify-center text-gray-500 transition-shadow duration-300 hover:shadow-xl relative"
+                       title="GitHub">
+                        <img src="https://avatars.githubusercontent.com/u/92989582?v=4" alt="José Yoel Mendoza Leyva" class="w-28 h-28 rounded-full object-cover border-4 border-blue-400 shadow-lg mx-auto" />
+                    </a>
+                </div>
+                <div class="text-center md:text-left">
+                    <h1 class="text-3xl md:text-4xl font-bold mb-2">José Yoel Mendoza Leyva</h1>
+                    <p data-i18n="header.role" class="text-xl mb-4 opacity-90">Desarrollador Backend</p>
+                    
+                    <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <span>jymendev@gmail.com</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-phone mr-2"></i>
+                            <span>+53 53482187</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            <span>Holguín, Cuba</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Contenido principal -->
+        <main class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Columna izquierda -->
+            <div class="md:col-span-2 space-y-6">
+                <!-- Perfil profesional -->
+                <section class="section-card bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-200 dark:border-gray-700">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-user text-blue-600"></i>
+                        </div>
+                        <h2 data-i18n="profile.title"class="text-2xl font-bold text-gray-800 dark:text-gray-100">Perfil Profesional</h2>
+                    </div>
+                    <p data-i18n="profile.description" class="text-gray-800 dark:text-gray-100">
+                        Desarrollador backend autodidacta con 7 meses de experiencia en el diseño, desarrollo y despliegue de APIs RESTful. Especializado en Python con frameworks Flask y FastAPI, manejo de bases de datos SQL (MySQL, PostgreSQL, SQLite) y automatización mediante bots de Telegram. Fuerte enfoque en testing automatizado con Pytest y documentación de APIs usando Swagger. Rápido aprendizaje y adaptabilidad, orientado a soluciones prácticas y eficientes.
+                    </p>
+                </section>
+
+                <!-- Experiencia -->
+                <section class="section-card bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-200 dark:border-gray-700">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-briefcase text-blue-600"></i>
+                        </div>
+                        <h2 data-i18n="experience.title" class="text-2xl font-bold text-gray-800 dark:text-gray-100">Experiencia en Proyectos Propios</h2>
+                    </div>
+                    
+                    <ul data-i18n="experience.items" class="space-y-4">
+                        <li class="flex">
+                            <div class="flex-shrink-0 w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></div>
+                            <p data-i18n="experience.item_1" class="text-gray-800 dark:text-gray-100">Desarrollo completo de proyectos backend usando Flask y FastAPI.</p>
+                        </li>
+                        <li class="flex">
+                            <div class="flex-shrink-0 w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></div>
+                            <p data-i18n="experience.item_2" class="text-gray-800 dark:text-gray-100">Implementación de bases de datos con SQLAlchemy y gestión de migraciones con Alembic.</p>
+                        </li>
+                        <li class="flex">
+                            <div class="flex-shrink-0 w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></div>
+                            <p data-i18n="experience.item_3" class="text-gray-800 dark:text-gray-100">Creación y despliegue de bots de Telegram para automatización de procesos, incluyendo captura de leads y envío masivo de correos.</p>
+                        </li>
+                        <li class="flex">
+                            <div class="flex-shrink-0 w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></div>
+                            <p data-i18n="experience.item_4" class="text-gray-800 dark:text-gray-100">Diseño de un sistema de autenticación universal reutilizable para diversos proyectos (web, servidores de juegos, IA).</p>
+                        </li>
+                        <li class="flex">
+                            <div class="flex-shrink-0 w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></div>
+                            <p data-i18n="experience.item_5"  class="text-gray-800 dark:text-gray-100">Uso disciplinado de Git para control de versiones, trabajando de forma autónoma.</p>
+                        </li>
+                        <li class="flex">
+                            <div class="flex-shrink-0 w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></div>
+                            <p data-i18n="experience.item_6"  class="text-gray-800 dark:text-gray-100">Documentación de APIs mediante Swagger y pruebas automáticas con Pytest para asegurar calidad.</p>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section-card bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-200 dark:border-gray-700 flex flex-col min-h-[220px] max-h-[400px] h-auto overflow-y-auto">
+    <div class="flex items-center mb-2">
+        <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+            <i class="fas fa-user-check text-blue-600"></i>
+        </div>
+        <h2 class="text-2xl font-bold text-gray-800 dark:text-gray-100" id="por-que-contratarme">¿Por qué contratarme?</h2>
+    </div>
+    <p data-i18n="experience.why_me" class="text-gray-800 dark:text-gray-100 mt-1">
+        Como desarrollador backend especializado en Python, ofrezco soluciones eficientes y escalables para tus proyectos. Mi experiencia en APIs RESTful, bases de datos SQL y automatización con bots de Telegram me permite adaptarme rápidamente a nuevos retos. Trabajo con Flask y FastAPI, aplicando buenas prácticas de testing y documentación (Pytest, Swagger). Destaco por mi autonomía, aprendizaje rápido y compromiso con la calidad. Si buscas un profesional responsable, proactivo y orientado a resultados, soy la opción ideal para potenciar tu equipo de desarrollo backend.
+    </p>
+</section>
+<section id="galeria-proyectos" class="section-card bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-200 dark:border-gray-700">
+    <div class="flex items-center mb-4">
+        <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+            <i class="fas fa-images text-blue-600"></i>
+        </div>
+        <h2 data-i18n="gallery.title" class="text-2xl font-bold text-gray-800 dark:text-gray-100">Galería de Proyectos</h2>
+       
+    </div>
+     <p data-i18n="gallery.description" class="text-gray-800 dark:text-gray-100">
+        Explora mis proyectos personales que muestran mis habilidades en desarrollo backend. Cada miniatura te llevará a una vista ampliada del proyecto.
+                    </p>
+    <div id="galeria-thumbs" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
+    <div id="projectModal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 hidden">
+    <div class="bg-white dark:bg-gray-900 rounded-xl shadow-xl p-6 w-full max-w-2xl relative">
+        <button id="closeProjectModal" class="absolute top-3 right-3 text-gray-500 hover:text-gray-800 dark:hover:text-gray-200 text-2xl">&times;</button>
+        <div id="projectModalContent"></div>
+    </div>
+</div>
+
+</section>
+
+
+</section>
+
+
+            </div>
+<div id="galeriaModal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 hidden">   
+    <div class="section-card bg-white bg-opacity-80 dark:bg-gray-800 dark:bg-opacity-80 rounded-xl shadow-md p-4 border border-gray-200 dark:border-gray-700 max-w-2xl w-full relative" style="max-width: 72rem; height: 32rem;">
+        <button id="closeGaleriaModal" class="absolute top-3 right-3 text-gray-500 hover:text-gray-800 text-2xl">&times;</button>
+        <div id="galeriaModalContent" class="flex flex-col h-full">
+            <!-- Aquí se inyecta el contenido desde JS -->
+        </div>
+    </div>
+</div>
+
+            <!-- Columna derecha -->
+            <div class="space-y-6">
+                <!-- Habilidades -->
+                <section class="section-card bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-200 dark:border-gray-700">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-code text-blue-600"></i>
+                        </div>
+                        <h2 data-i18n="skills.title" class="text-2xl font-bold text-gray-800 dark:text-gray-100">Habilidades Técnicas</h2>
+                    </div>
+                    
+                    <div class="space-y-4">
+                        <!-- HABILIDADES -->
+<h3 data-i18n="skills.languages" class="font-semibold text-gray-800 dark:text-gray-100 mb-2">Lenguajes</h3>
+<div class="flex flex-wrap gap-2">
+    <span data-i18n="skills.python" class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm">Python (Intermedio-Avanzado)</span>
+    <span data-i18n="skills.javascript" class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm">JavaScript (Básico)</span>
+    <span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm">HTML/TailwindCSS</span>
+</div>
+
+<h3 class="font-semibold text-gray-800 dark:text-gray-100 mb-2">Frameworks</h3>
+<div class="flex flex-wrap gap-2">
+    <span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm">Flask</span>
+    <span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm">FastAPI</span>
+</div>
+
+<h3 data-i18n="skills.database" class="font-semibold text-gray-800 dark:text-gray-100 mb-2">Bases de Datos</h3>
+<div class="flex flex-wrap gap-2">
+    <span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm">MySQL</span>
+    <span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm">PostgreSQL</span>
+    <span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm">SQLite</span>
+    <span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm">SQLAlchemy</span>
+</div>
+
+<h3 data-i18n="skills.tools"class="font-semibold text-gray-800 dark:text-gray-100 mb-2">Herramientas</h3>
+<div class="flex flex-wrap gap-2">
+    <span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm">Git</span>
+    <span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm">Pytest</span>
+    <span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm">Swagger</span>
+    <span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm">Postman</span>
+    <span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm">Alembic</span>
+    <span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm">Telegram Bot (requests)</span>
+</div>
+                    </div>
+                </section>
+
+                <!-- Educación -->
+                <section class="section-card bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-200 dark:border-gray-700">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-graduation-cap text-blue-600"></i>
+                        </div>
+                        <h2 data-i18n="education.title"class="text-2xl font-bold text-gray-800 dark:text-gray-100">Educación y Formación</h2>
+                    </div>
+                    
+                    <p data-i18n="education.description" class="text-gray-800 dark:text-gray-100">
+                        Estudiante autodidacta con enfoque en aprendizaje práctico y constante actualización.
+                    </p>
+                </section>
+
+                <!-- Idiomas -->
+                <section class="section-card bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-200 dark:border-gray-700">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-language text-blue-600"></i>
+                        </div>
+                        <h2 data-i18n="languages.title"class="text-2xl font-bold text-gray-800 dark:text-gray-100">Idiomas</h2>
+                    </div>
+                    
+                    <div class="space-y-3">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span data-i18n="languages.spanish"class="font-medium text-gray-800 dark:text-gray-100">Español (nativo)</span>
+                                <span class="text-blue-600 dark:text-blue-300">100%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+                                <div class="bg-blue-600 dark:bg-blue-400 h-2 rounded-full" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span data-i18n="languages.english" class="font-medium text-gray-800 dark:text-gray-100">Inglés (fluido)</span>
+                                <span class="text-blue-600 dark:text-blue-300">85%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+                                <div class="bg-blue-600 dark:bg-blue-400 h-2 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Información adicional -->
+                <section class="section-card bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-200 dark:border-gray-700">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+                            <i class="fas fa-info-circle text-blue-600"></i>
+                        </div>
+                        <h2 data-i18n="additional.title" class="text-2xl font-bold text-gray-800 dark:text-gray-100">Información Adicional</h2>
+                    </div>
+                    
+                    <ul class="space-y-2">
+                        <li class="flex">
+                            <i class="fas fa-medal text-blue-500 mr-2 mt-1"></i>
+                            <span data-i18n="additional.codewars" class="text-gray-800 dark:text-gray-100">Nivel 4kyu en Codewars (desafíos de programación)</span>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-brain text-blue-500 mr-2 mt-1"></i>
+                            <span data-i18n="additional.ability" class="text-gray-800 dark:text-gray-100">Alta capacidad para trabajo independiente y aprendizaje rápido</span>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-users text-blue-500 mr-2 mt-1"></i>
+                            <span data-i18n="additional.will" class="text-gray-800 dark:text-gray-100">Busco integrar un equipo para seguir creciendo profesionalmente y ganar experiencia colaborativa</span>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+
+        <!-- Pie de página -->
+        <footer class="mt-12 py-6 text-center text-gray-600 border-t">
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="mailto:jymendev@gmail.com" class="text-blue-600 hover:text-blue-800">
+                    <i class="fas fa-envelope text-xl"></i>
+                </a>
+                <a href="https://github.com/jymendev" target="_blank" class="text-gray-800 hover:text-gray-600">
+                    <i class="fab fa-github text-xl"></i>
+                </a>
+                <a href="#" class="text-blue-700 hover:text-blue-900">
+                    <i class="fab fa-linkedin text-xl"></i>
+                </a>
+                <a href="https://www.codewars.com/users/jymendev" target="_blank" class="text-red-600 hover:text-red-800">
+                    <i class="fas fa-code text-xl"></i>
+                </a>
+            </div>
+            <p data-i18n="footer.copyright">© 2025 José Yoel Mendoza Leyva. Todos los derechos reservados.</p>
+            <p data-i18n="footer.developed" class="mt-2 text-sm">Desarrollado con HTML, Tailwind CSS y JavaScript</p>
+        </footer>
+    </div>
+
+    <!-- Botón flotante de contacto -->
+    <a id="contactBtn" href="#" class="fixed bottom-6 right-6 bg-blue-600 text-white p-4 rounded-full shadow-lg floating-btn hover:bg-blue-700">
+        <i class="fas fa-paper-plane text-xl"></i>
+    </a>
+
+    <!-- Modal de contacto -->
+<div id="contactModal" class="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50 hidden">
+    <div class="section-card bg-white dark:bg-gray-800 rounded-xl shadow-md p-8 border border-gray-200 dark:border-gray-700 w-full max-w-md relative">
+        <button id="closeModal" class="absolute top-3 right-3 text-gray-500 hover:text-gray-800 dark:hover:text-gray-200 text-2xl">&times;</button>
+        <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+                <i class="fas fa-paper-plane text-blue-600"></i>
+            </div>
+            <h2 data-i18n="contact.title" class="text-2xl font-bold text-gray-800 dark:text-gray-100">Contacto para Reclutadores</h2>
+        </div>
+        <form id="recruiterForm" class="space-y-4">
+            <div>
+                <label data-i18n="contact.company" class="block font-medium mb-1 text-gray-800 dark:text-gray-100">Nombre de la compañía</label>
+                <input type="text" name="company" required class="w-full border border-gray-300 dark:border-gray-600 rounded px-3 py-2 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-400">
+            </div>
+            <div>
+                <label data-i18n="contact.email" class="block font-medium mb-1 text-gray-800 dark:text-gray-100">Correo de contacto</label>
+                <input type="email" name="email" required class="w-full border border-gray-300 dark:border-gray-600 rounded px-3 py-2 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-400">
+            </div>
+            <div>
+                <label data-i18n="contact.phone" class="block font-medium mb-1 text-gray-800 dark:text-gray-100">Número de contacto</label>
+                <input type="tel" name="phone" required class="w-full border border-gray-300 dark:border-gray-600 rounded px-3 py-2 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-400">
+            </div>
+            <div>
+                <label data-i18n="contact.position" class="block font-medium mb-1 text-gray-800 dark:text-gray-100">Plaza que ofrece</label>
+                <input type="text" name="position" required class="w-full border border-gray-300 dark:border-gray-600 rounded px-3 py-2 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-400">
+            </div>
+            <button data-i18n="contact.button" type="submit" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 font-semibold">Enviar</button>
+        </form>
+        <div data-i18n="contact.success" id="formSuccess" class="hidden mt-4 text-green-600 dark:text-green-400 font-semibold text-center">
+            ¡Gracias por su interés! Me pondré en contacto pronto.
+        </div>
+    </div>
+</div>
+<script>
+  document.getElementById('recruiterForm').addEventListener('submit', function(event) {
+    event.preventDefault();  // evitar que el formulario haga submit normal
+
+    const formData = new FormData(this);
+    const data = {};
+
+    formData.forEach((value, key) => {
+      data[key] = value;
+    });
+
+    fetch('https://nightwalkax.pythonanywhere.com/api/cv', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(data)
+    })
+    .then(response => {
+      if (!response.ok) throw new Error('Error en la petición');
+      return response.json();
+    })
+    .then(result => {
+      alert('Datos enviados correctamente');
+      this.reset();
+    })
+    .catch(error => {
+      alert('Error al enviar los datos: ' + error.message);
+    });
+  });
+</script>
+
+    <script src="static/scripts.js"></script>
+</body>
+</html>
