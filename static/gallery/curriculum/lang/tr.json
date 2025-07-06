@@ -1,0 +1,113 @@
+{
+  "header": {
+    "title": "José Yoel Mendoza Leyva - Backend Geliştirici",
+    "name": "José Yoel Mendoza Leyva",
+    "role": "Backend Geliştirici",
+    "email": "jymendev@gmail.com",
+    "phone": "+53 53482187",
+    "location": "Holguín, Küba"
+  },
+  "profile": {
+    "title": "Profesyonel Profil",
+    "description": "RESTful API'lerin tasarımı, geliştirilmesi ve uygulanmasında 7 aylık deneyime sahip kendi kendini yetiştirmiş bir backend geliştirici. Flask ve FastAPI framework'leri ile Python, SQL veritabanı yönetimi (MySQL, PostgreSQL, SQLite) ve Telegram botları kullanarak otomasyon konusunda uzman. Pytest ile otomatik testlere ve Swagger ile API dokümantasyonuna odaklanır. Hızlı öğrenen ve uyum sağlayabilen, pratik ve verimli çözümlere yönelik."
+  },
+  "experience": {
+    "title": "Kişisel Proje Deneyimi",
+    "item_1": "Flask ve FastAPI kullanarak backend projelerinin tam geliştirilmesi.",
+    "item_2": "SQLAlchemy ile veritabanı uygulaması ve Alembic ile migrasyon yönetimi.",
+    "item_3": "Lead yakalama ve toplu e-posta gönderme dahil süreç otomasyonu için Telegram botları oluşturma ve uygulama.",
+    "item_4": "Çeşitli projeler (web, oyun sunucuları, AI) için yeniden kullanılabilir evrensel bir kimlik doğrulama sistemi tasarımı.",
+    "item_5": "Bağımsız çalışırken versiyon kontrolü için disiplinli Git kullanımı.",
+    "item_6": "Kaliteyi sağlamak için Swagger ile API dokümantasyonu ve Pytest ile otomatik testler.",
+    "why_me": "Python'da uzmanlaşmış bir backend geliştirici olarak, projeleriniz için verimli ve ölçeklenebilir çözümler sunuyorum. RESTful API'ler, SQL veritabanları ve Telegram botları ile otomasyon deneyimim, yeni zorluklara hızla uyum sağlamamı sağlıyor. Flask ve FastAPI ile çalışıyorum, test ve dokümantasyon (Pytest, Swagger) için en iyi uygulamaları uyguluyorum. Özerklik, hızlı öğrenme ve kaliteye bağlılık ile öne çıkıyorum. Sorumlu, proaktif ve sonuç odaklı bir profesyonel arıyorsanız, backend geliştirme ekibinizi güçlendirmek için ideal seçimim."
+  },
+  "gallery": {
+    "title": "Proje Galerisi",
+    "description": "Backend geliştirme becerilerimi sergileyen kişisel projelerimi keşfedin. Her küçük resim sizi projenin ayrıntılı bir görünümüne götürecektir."
+  },
+  "skills": {
+    "title": "Teknik Beceriler",
+    "languages": "Diller",
+    "python": "Python (İleri)",
+    "javascript": "Javascript (Temel)",
+    "database": "Veritabanları",
+    "tools": "Araçlar"
+  },
+  "education": {
+    "title": "Eğitim ve Öğretim",
+    "description": "Pratik öğrenmeye ve sürekli güncellemeye odaklanan kendi kendini yetiştirmiş bir öğrenci."
+  },
+  "languages": {
+    "title": "Diller",
+    "spanish": "İspanyolca (ana dil)",
+    "english": "İngilizce (akıcı)"
+  },
+  "additional": {
+    "title": "Ek Bilgiler",
+    "codewars": "Codewars'da 4kyu seviyesi (programlama zorlukları)",
+    "ability": "Bağımsız çalışma ve hızlı öğrenme konusunda yüksek yetenek",
+    "will": "Profesyonel olarak büyümeye ve işbirlikçi deneyim kazanmaya devam etmek için bir ekibe katılmak istiyorum"
+  },
+  "contact": {
+    "title": "İşe Alım Uzmanları İçin İletişim",
+    "company": "Şirket Adı",
+    "email": "İletişim E-postası",
+    "phone": "İletişim Numarası",
+    "position": "Sunulan Pozisyon",
+    "button": "Gönder",
+    "success": "İlginiz için teşekkürler! Yakında sizinle iletişime geçeceğim."
+  },
+  "footer": {
+    "copyright": "© 2025 José Yoel Mendoza Leyva. Tüm hakları saklıdır.",
+    "developed": "HTML, Tailwind CSS ve JavaScript ile geliştirilmiştir"
+  },
+  "hero.title": "José Yoel Mendoza Leyva",
+  "hero.role": "Backend Geliştirici",
+  "hero.description": "Python, RESTful API'ler, SQL veritabanları ve Telegram botları ile otomasyon konusunda uzman.",
+  "hero.cta": "📄 Tam CV'mi okuyun",
+  "hero.email": "jymendev@gmail.com",
+  "hero.github": "NightWalkAX",
+  "hero.codewars": "jymendev",
+  "hero.linkedin": "LinkedIn",
+  "projects.title": "Öne Çıkan Projeler",
+  "projects.github": "GitHub'da Görüntüle",
+  "skills.title": "Teknik Beceriler",
+  "skills.languages": "Diller",
+  "skills.python": "Python",
+  "skills.javascript": "JavaScript",
+  "skills.sql": "SQL",
+  "skills.frameworks": "Framework'ler",
+  "skills.flask": "Flask",
+  "skills.fastapi": "FastAPI",
+  "skills.tools": "Araçlar",
+  "skills.git": "Git",
+  "skills.pytest": "Pytest",
+  "skills.swagger": "Swagger",
+  "skills.postman": "Postman",
+  "skills.alembic": "Alembic",
+  "skills.telegram": "Telegram Botu",
+  "skills.databases": "Veritabanları",
+  "skills.mysql": "MySQL",
+  "skills.postgresql": "PostgreSQL",
+  "skills.sqlite": "SQLite",
+  "skills.sqlalchemy": "SQLAlchemy",
+  "testimonials.title": "Referanslar",
+  "testimonials.1.text": "José Yoel çok kararlı bir geliştiricidir, hızlı öğrenir ve kaliteli çözümler sunar.",
+  "testimonials.1.author": "Anonim İşbirlikçi",
+  "testimonials.1.role": "Proje Ekibi",
+  "testimonials.2.text": "Özerkliği ve karmaşık backend sorunlarını çözme yeteneği ile öne çıkıyor.",
+  "testimonials.2.author": "Teknik Mentor",
+  "testimonials.2.role": "Python Topluluğu",
+  "contact.title": "İletişim",
+  "contact.name": "Ad",
+  "contact.email": "E-posta",
+  "contact.message": "Mesaj",
+  "contact.send": "Gönder",
+  "contact.success": "Mesajınız için teşekkürler!",
+  "contact.error": "Bir hata oluştu. Lütfen tekrar deneyin.",
+  "footer.copyright": "© 2025 José Yoel Mendoza Leyva. Tüm hakları saklıdır.",
+  "footer.developed": "HTML, Tailwind CSS ve JavaScript ile geliştirilmiştir",
+  "lang.select": "Dil",
+  "lang.es": "İspanyolca",
+  "lang.en": "İngilizce"
+}

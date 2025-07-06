@@ -1,0 +1,113 @@
+{
+  "header": {
+    "title": "José Yoel Mendoza Leyva - Développeur Backend",
+    "name": "José Yoel Mendoza Leyva",
+    "role": "Développeur Backend",
+    "email": "jymendev@gmail.com",
+    "phone": "+53 53482187",
+    "location": "Holguín, Cuba"
+  },
+  "profile": {
+    "title": "Profil Professionnel",
+    "description": "Développeur backend autodidacte avec 7 mois d'expérience dans la conception, le développement et la mise en œuvre d'API RESTful. Spécialisé en Python avec les frameworks Flask et FastAPI, gestion de bases de données SQL (MySQL, PostgreSQL, SQLite) et automatisation avec des bots Telegram. Concentration sur les tests automatisés avec Pytest et documentation d'API avec Swagger. Apprentissage rapide et adaptable, orienté vers des solutions pratiques et efficaces."
+  },
+  "experience": {
+    "title": "Expérience en Projets Personnels",
+    "item_1": "Développement complet de projets backend utilisant Flask et FastAPI.",
+    "item_2": "Implémentation de bases de données avec SQLAlchemy et gestion des migrations avec Alembic.",
+    "item_3": "Création et implémentation de bots Telegram pour l'automatisation de processus, incluant la capture de leads et l'envoi massif d'emails.",
+    "item_4": "Conception d'un système d'authentification universel réutilisable pour divers projets (web, serveurs de jeux, IA).",
+    "item_5": "Utilisation disciplinée de Git pour le contrôle de version, travaillant de manière indépendante.",
+    "item_6": "Documentation d'API avec Swagger et tests automatisés avec Pytest pour assurer la qualité.",
+    "why_me": "En tant que développeur backend spécialisé en Python, je propose des solutions efficaces et évolutives pour vos projets. Mon expérience avec les API RESTful, les bases de données SQL et l'automatisation avec des bots Telegram me permet de m'adapter rapidement à de nouveaux défis. Je travaille avec Flask et FastAPI, appliquant les bonnes pratiques de test et documentation (Pytest, Swagger). Je me distingue par mon autonomie, mon apprentissage rapide et mon engagement envers la qualité. Si vous cherchez un professionnel responsable, proactif et orienté résultats, je suis le choix idéal pour renforcer votre équipe de développement backend."
+  },
+  "gallery": {
+    "title": "Galerie de Projets",
+    "description": "Explorez mes projets personnels mettant en valeur mes compétences en développement backend. Chaque miniature vous mènera à une vue détaillée du projet."
+  },
+  "skills": {
+    "title": "Compétences Techniques",
+    "languages": "Langages",
+    "python": "Python (Avancé)",
+    "javascript": "Javascript (Basique)",
+    "database": "Bases de Données",
+    "tools": "Outils"
+  },
+  "education": {
+    "title": "Éducation et Formation",
+    "description": "Étudiant autodidacte axé sur l'apprentissage pratique et la mise à jour constante."
+  },
+  "languages": {
+    "title": "Langues",
+    "spanish": "Espagnol (natif)",
+    "english": "Anglais (courant)"
+  },
+  "additional": {
+    "title": "Informations Complémentaires",
+    "codewars": "Niveau 4kyu sur Codewars (défis de programmation)",
+    "ability": "Grande capacité pour le travail indépendant et l'apprentissage rapide",
+    "will": "À la recherche d'intégrer une équipe pour continuer à grandir professionnellement et acquérir de l'expérience collaborative"
+  },
+  "contact": {
+    "title": "Contact pour Recruteurs",
+    "company": "Nom de l'Entreprise",
+    "email": "Email de Contact",
+    "phone": "Numéro de Contact",
+    "position": "Poste Proposé",
+    "button": "Envoyer",
+    "success": "Merci pour votre intérêt ! Je vous contacterai bientôt."
+  },
+  "footer": {
+    "copyright": "© 2025 José Yoel Mendoza Leyva. Tous droits réservés.",
+    "developed": "Développé avec HTML, Tailwind CSS et JavaScript"
+  },
+  "hero.title": "José Yoel Mendoza Leyva",
+  "hero.role": "Développeur Backend",
+  "hero.description": "Spécialisé en Python, API RESTful, bases de données SQL et automatisation avec des bots Telegram.",
+  "hero.cta": "📄 Lire mon CV complet",
+  "hero.email": "jymendev@gmail.com",
+  "hero.github": "NightWalkAX",
+  "hero.codewars": "jymendev",
+  "hero.linkedin": "LinkedIn",
+  "projects.title": "Projets en Vedette",
+  "projects.github": "Voir sur GitHub",
+  "skills.title": "Compétences Techniques",
+  "skills.languages": "Langages",
+  "skills.python": "Python",
+  "skills.javascript": "JavaScript",
+  "skills.sql": "SQL",
+  "skills.frameworks": "Frameworks",
+  "skills.flask": "Flask",
+  "skills.fastapi": "FastAPI",
+  "skills.tools": "Outils",
+  "skills.git": "Git",
+  "skills.pytest": "Pytest",
+  "skills.swagger": "Swagger",
+  "skills.postman": "Postman",
+  "skills.alembic": "Alembic",
+  "skills.telegram": "Bot Telegram",
+  "skills.databases": "Bases de Données",
+  "skills.mysql": "MySQL",
+  "skills.postgresql": "PostgreSQL",
+  "skills.sqlite": "SQLite",
+  "skills.sqlalchemy": "SQLAlchemy",
+  "testimonials.title": "Témoignages",
+  "testimonials.1.text": "José Yoel est un développeur très engagé, apprend rapidement et livre des solutions de qualité.",
+  "testimonials.1.author": "Collaborateur Anonyme",
+  "testimonials.1.role": "Équipe de Projet",
+  "testimonials.2.text": "Il se distingue par son autonomie et sa capacité à résoudre des problèmes backend complexes.",
+  "testimonials.2.author": "Mentor Technique",
+  "testimonials.2.role": "Communauté Python",
+  "contact.title": "Contact",
+  "contact.name": "Nom",
+  "contact.email": "Email",
+  "contact.message": "Message",
+  "contact.send": "Envoyer",
+  "contact.success": "Merci pour votre message !",
+  "contact.error": "Une erreur est survenue. Veuillez réessayer.",
+  "footer.copyright": "© 2025 José Yoel Mendoza Leyva. Tous droits réservés.",
+  "footer.developed": "Développé avec HTML, Tailwind CSS et JavaScript",
+  "lang.select": "Langue",
+  "lang.es": "Espagnol",
+  "lang.en": "Anglais"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Özgeçmiş",
+  "short": "Şu anda görüntülediğiniz bu sayfa",
+  "description": "Açılış sayfası, 14 dile otomatik çeviri, iletişim formu ve otomatik gündüz/gece modu içeren özgeçmiş sayfası.",
+  "links": {
+    "Demo": "https://nightwalkax.github.io/curriculum-vitae/",
+    "GitHub": "https://github.com/NightWalkAX/curriculum-vitae"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Резюме",
+  "short": "Эта страница, которую вы просматриваете",
+  "description": "Страница резюме с целевой страницей, автоматическим переводом на 14 языков, контактной формой и автоматическим дневным/ночным режимом.",
+  "links": {
+    "Demo": "https://nightwalkax.github.io/curriculum-vitae/",
+    "GitHub": "https://github.com/NightWalkAX/curriculum-vitae"
+  }
+}

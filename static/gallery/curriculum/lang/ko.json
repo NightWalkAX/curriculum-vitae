@@ -1,0 +1,113 @@
+{
+  "header": {
+    "title": "José Yoel Mendoza Leyva - 백엔드 개발자",
+    "name": "José Yoel Mendoza Leyva",
+    "role": "백엔드 개발자",
+    "email": "jymendev@gmail.com",
+    "phone": "+53 53482187",
+    "location": "홀귄, 쿠바"
+  },
+  "profile": {
+    "title": "프로필",
+    "description": "RESTful API 설계, 개발 및 구현에 7개월 경험을 가진 독학 백엔드 개발자. Flask 및 FastAPI 프레임워크를 사용한 Python, SQL 데이터베이스 관리(MySQL, PostgreSQL, SQLite) 및 Telegram 봇을 사용한 자동화에 특화되어 있습니다. Pytest를 사용한 자동화 테스트 및 Swagger를 사용한 API 문서화에 중점을 둡니다. 빠른 학습 및 적응 능력을 갖추고 있으며 실용적이고 효율적인 솔루션을 지향합니다."
+  },
+  "experience": {
+    "title": "개인 프로젝트 경험",
+    "item_1": "Flask 및 FastAPI를 사용한 백엔드 프로젝트의 완전한 개발.",
+    "item_2": "SQLAlchemy를 사용한 데이터베이스 구현 및 Alembic을 사용한 마이그레이션 관리.",
+    "item_3": "리드 캡처 및 대량 이메일 발송을 포함한 프로세스 자동화를 위한 Telegram 봇 생성 및 구현.",
+    "item_4": "다양한 프로젝트(웹, 게임 서버, AI)를 위한 재사용 가능한 범용 인증 시스템 설계.",
+    "item_5": "독립적으로 작업하면서 버전 관리를 위해 Git을 체계적으로 사용.",
+    "item_6": "품질 보장을 위한 Swagger를 사용한 API 문서화 및 Pytest를 사용한 자동화 테스트.",
+    "why_me": "Python에 특화된 백엔드 개발자로서 프로젝트에 효율적이고 확장 가능한 솔루션을 제공합니다. RESTful API, SQL 데이터베이스 및 Telegram 봇을 사용한 자동화 경험으로 새로운 도전에 빠르게 적응할 수 있습니다. Flask 및 FastAPI로 작업하며 테스트 및 문서화(Pytest, Swagger)의 모범 사례를 적용합니다. 자율성, 빠른 학습 및 품질에 대한 헌신으로 돋보입니다. 책임감 있고 적극적이며 결과 지향적인 전문가를 찾고 있다면, 저는 당신의 백엔드 개발 팀을 강화할 이상적인 선택입니다."
+  },
+  "gallery": {
+    "title": "프로젝트 갤러리",
+    "description": "백엔드 개발 기술을 보여주는 개인 프로젝트를 탐색해보세요. 각 썸네일을 클릭하면 프로젝트의 상세 보기로 이동합니다."
+  },
+  "skills": {
+    "title": "기술 스킬",
+    "languages": "언어",
+    "python": "Python (고급)",
+    "javascript": "Javascript (기초)",
+    "database": "데이터베이스",
+    "tools": "도구"
+  },
+  "education": {
+    "title": "교육 및 훈련",
+    "description": "실용적인 학습과 지속적인 업데이트에 중점을 둔 독학 학생."
+  },
+  "languages": {
+    "title": "언어",
+    "spanish": "스페인어 (모국어)",
+    "english": "영어 (유창함)"
+  },
+  "additional": {
+    "title": "추가 정보",
+    "codewars": "Codewars 4kyu 레벨 (프로그래밍 챌린지)",
+    "ability": "독립적인 작업과 빠른 학습 능력",
+    "will": "전문적으로 성장하고 협업 경험을 얻기 위해 팀에 합류하고 싶습니다"
+  },
+  "contact": {
+    "title": "채용 담당자를 위한 연락처",
+    "company": "회사 이름",
+    "email": "연락 이메일",
+    "phone": "연락처 번호",
+    "position": "제공되는 포지션",
+    "button": "보내기",
+    "success": "관심 가져주셔서 감사합니다! 곧 연락드리겠습니다."
+  },
+  "footer": {
+    "copyright": "© 2025 José Yoel Mendoza Leyva. 모든 권리 보유.",
+    "developed": "HTML, Tailwind CSS 및 JavaScript로 개발"
+  },
+  "hero.title": "José Yoel Mendoza Leyva",
+  "hero.role": "백엔드 개발자",
+  "hero.description": "Python, RESTful API, SQL 데이터베이스 및 Telegram 봇 자동화 전문가",
+  "hero.cta": "📄 내 전체 이력서 읽기",
+  "hero.email": "jymendev@gmail.com",
+  "hero.github": "NightWalkAX",
+  "hero.codewars": "jymendev",
+  "hero.linkedin": "LinkedIn",
+  "projects.title": "주요 프로젝트",
+  "projects.github": "GitHub에서 보기",
+  "skills.title": "기술 스킬",
+  "skills.languages": "언어",
+  "skills.python": "Python",
+  "skills.javascript": "JavaScript",
+  "skills.sql": "SQL",
+  "skills.frameworks": "프레임워크",
+  "skills.flask": "Flask",
+  "skills.fastapi": "FastAPI",
+  "skills.tools": "도구",
+  "skills.git": "Git",
+  "skills.pytest": "Pytest",
+  "skills.swagger": "Swagger",
+  "skills.postman": "Postman",
+  "skills.alembic": "Alembic",
+  "skills.telegram": "Telegram 봇",
+  "skills.databases": "데이터베이스",
+  "skills.mysql": "MySQL",
+  "skills.postgresql": "PostgreSQL",
+  "skills.sqlite": "SQLite",
+  "skills.sqlalchemy": "SQLAlchemy",
+  "testimonials.title": "추천서",
+  "testimonials.1.text": "José Yoel은 매우 헌신적인 개발자로, 빠르게 배우고 고품질 솔루션을 제공합니다.",
+  "testimonials.1.author": "익명의 협력자",
+  "testimonials.1.role": "프로젝트 팀",
+  "testimonials.2.text": "그는 자율성과 복잡한 백엔드 문제 해결 능력으로 두드러집니다.",
+  "testimonials.2.author": "기술 멘토",
+  "testimonials.2.role": "Python 커뮤니티",
+  "contact.title": "연락처",
+  "contact.name": "이름",
+  "contact.email": "이메일",
+  "contact.message": "메시지",
+  "contact.send": "보내기",
+  "contact.success": "메시지 감사합니다!",
+  "contact.error": "오류가 발생했습니다. 다시 시도해주세요.",
+  "footer.copyright": "© 2025 José Yoel Mendoza Leyva. 모든 권리 보유.",
+  "footer.developed": "HTML, Tailwind CSS 및 JavaScript로 개발",
+  "lang.select": "언어",
+  "lang.es": "스페인어",
+  "lang.en": "영어"
+}

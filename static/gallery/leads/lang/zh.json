@@ -1,0 +1,9 @@
+{
+  "name": "简历",
+  "short": "您正在查看的此页面",
+  "description": "简历页面，包含登陆页面、自动翻译成14种语言、联系表单和自动昼夜模式。",
+  "links": {
+    "Demo": "https://nightwalkax.github.io/curriculum-vitae/",
+    "GitHub": "https://github.com/NightWalkAX/curriculum-vitae"
+  }
+}

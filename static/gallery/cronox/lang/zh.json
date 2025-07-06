@@ -1,0 +1,113 @@
+{
+  "header": {
+    "title": "José Yoel Mendoza Leyva - 后端开发人员",
+    "name": "José Yoel Mendoza Leyva",
+    "role": "后端开发人员",
+    "email": "jymendev@gmail.com",
+    "phone": "+53 53482187",
+    "location": "奥尔金, 古巴"
+  },
+  "profile": {
+    "title": "专业简介",
+    "description": "自学后端开发人员，拥有7个月RESTful API设计、开发和实施经验。专长于使用Flask和FastAPI框架的Python、SQL数据库管理（MySQL、PostgreSQL、SQLite）以及使用Telegram机器人的自动化。专注于使用Pytest进行自动化测试和使用Swagger进行API文档编写。学习快速且适应性强，致力于实用高效的解决方案。"
+  },
+  "experience": {
+    "title": "个人项目经验",
+    "item_1": "使用Flask和FastAPI完整开发后端项目。",
+    "item_2": "使用SQLAlchemy实现数据库及Alembic进行迁移管理。",
+    "item_3": "创建并实现Telegram机器人用于流程自动化，包括潜在客户捕获和批量邮件发送。",
+    "item_4": "为多个项目（网页、游戏服务器、AI）设计可重用的通用认证系统。",
+    "item_5": "独立工作时严格使用Git进行版本控制。",
+    "item_6": "使用Swagger编写API文档及Pytest进行自动化测试以确保质量。",
+    "why_me": "作为专精Python的后端开发人员，我为您的项目提供高效且可扩展的解决方案。我在RESTful API、SQL数据库和Telegram机器人自动化方面的经验使我能够快速适应新挑战。我使用Flask和FastAPI工作，应用测试和文档（Pytest、Swagger）的最佳实践。我以自主性、快速学习和对质量的承诺脱颖而出。如果您正在寻找一位负责任、积极主动且注重结果的专家，我是增强您后端开发团队的理想选择。"
+  },
+  "gallery": {
+    "title": "项目展示",
+    "description": "探索展示我后端开发技能的个人项目。每个缩略图将带您进入项目的详细视图。"
+  },
+  "skills": {
+    "title": "技术技能",
+    "languages": "语言",
+    "python": "Python (高级)",
+    "javascript": "Javascript (基础)",
+    "database": "数据库",
+    "tools": "工具"
+  },
+  "education": {
+    "title": "教育与培训",
+    "description": "专注于实践学习和持续更新的自学者。"
+  },
+  "languages": {
+    "title": "语言",
+    "spanish": "西班牙语 (母语)",
+    "english": "英语 (流利)"
+  },
+  "additional": {
+    "title": "附加信息",
+    "codewars": "Codewars 4kyu级别 (编程挑战)",
+    "ability": "独立工作和快速学习的高能力",
+    "will": "寻求加入团队以继续专业成长并获得协作经验"
+  },
+  "contact": {
+    "title": "招聘人员联系",
+    "company": "公司名称",
+    "email": "联系邮箱",
+    "phone": "联系电话",
+    "position": "提供职位",
+    "button": "发送",
+    "success": "感谢您的关注！我会尽快与您联系。"
+  },
+  "footer": {
+    "copyright": "© 2025 José Yoel Mendoza Leyva。保留所有权利。",
+    "developed": "使用HTML、Tailwind CSS和JavaScript开发"
+  },
+  "hero.title": "José Yoel Mendoza Leyva",
+  "hero.role": "后端开发人员",
+  "hero.description": "专长于Python、RESTful API、SQL数据库及Telegram机器人自动化。",
+  "hero.cta": "📄 阅读我的完整简历",
+  "hero.email": "jymendev@gmail.com",
+  "hero.github": "NightWalkAX",
+  "hero.codewars": "jymendev",
+  "hero.linkedin": "LinkedIn",
+  "projects.title": "精选项目",
+  "projects.github": "在GitHub上查看",
+  "skills.title": "技术技能",
+  "skills.languages": "语言",
+  "skills.python": "Python",
+  "skills.javascript": "JavaScript",
+  "skills.sql": "SQL",
+  "skills.frameworks": "框架",
+  "skills.flask": "Flask",
+  "skills.fastapi": "FastAPI",
+  "skills.tools": "工具",
+  "skills.git": "Git",
+  "skills.pytest": "Pytest",
+  "skills.swagger": "Swagger",
+  "skills.postman": "Postman",
+  "skills.alembic": "Alembic",
+  "skills.telegram": "Telegram机器人",
+  "skills.databases": "数据库",
+  "skills.mysql": "MySQL",
+  "skills.postgresql": "PostgreSQL",
+  "skills.sqlite": "SQLite",
+  "skills.sqlalchemy": "SQLAlchemy",
+  "testimonials.title": "推荐信",
+  "testimonials.1.text": "José Yoel是一位非常专注的开发人员，学习速度快，提供高质量的解决方案。",
+  "testimonials.1.author": "匿名合作者",
+  "testimonials.1.role": "项目团队",
+  "testimonials.2.text": "他以自主性和解决复杂后端问题的能力脱颖而出。",
+  "testimonials.2.author": "技术导师",
+  "testimonials.2.role": "Python社区",
+  "contact.title": "联系",
+  "contact.name": "姓名",
+  "contact.email": "邮箱",
+  "contact.message": "信息",
+  "contact.send": "发送",
+  "contact.success": "感谢您的留言！",
+  "contact.error": "发生错误。请再试一次。",
+  "footer.copyright": "© 2025 José Yoel Mendoza Leyva。保留所有权利。",
+  "footer.developed": "使用HTML、Tailwind CSS和JavaScript开发",
+  "lang.select": "语言",
+  "lang.es": "西班牙语",
+  "lang.en": "英语"
+}

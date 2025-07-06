@@ -1,0 +1,9 @@
+{
+  "name": "Curriculum Vitae",
+  "short": "Esta pagina que estas observando",
+  "description": "Pagina de curriculum vitae con landing page, autotraduccion a 14 idiomas, formulario de contacto y modo dia/noche automatico.",
+  "links": {
+    "Demo": "https://nightwalkax.github.io/curriculum-vitae/",
+    "GitHub": "https://github.com/NightWalkAX/curriculum-vitae"
+  }
+}

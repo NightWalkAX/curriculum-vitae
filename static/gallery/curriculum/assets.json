@@ -1,0 +1,28 @@
+{
+  "thumbnail": {
+    "url": "static/gallery/curriculum/curriculum.png",
+    "alt": "Main view of Curriculum"
+  },
+  "images": [
+    {
+      "url": "static/gallery/curriculum/landing.png",
+      "alt": "Main view of Curriculum"
+    },
+    {
+      "url": "static/gallery/curriculum/cvday.png",
+      "alt": "Examples of Curriculum"
+    },
+    {
+      "url": "static/gallery/curriculum/cvnight.png",
+      "alt": "Examples of Curriculum"
+    },
+    {
+      "url": "static/gallery/curriculum/cvlang.png",
+      "alt": "Examples of Curriculum"
+    },
+    {
+      "url": "static/gallery/curriculum/cvform.png",
+      "alt": "Examples of Curriculum"
+    }
+  ]
+}

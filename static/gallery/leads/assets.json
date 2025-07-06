@@ -1,0 +1,28 @@
+{
+  "thumbnail": {
+    "url": "static/gallery/leads/lead1.png",
+    "alt": "Main view of Leads"
+  },
+  "images": [
+    {
+      "url": "static/gallery/leads/lead1.png",
+      "alt": "Main view of Leads"
+    },
+    {
+      "url": "static/gallery/leads/lead2.png",
+      "alt": "Examples of Leads"
+    },
+    {
+      "url": "static/gallery/leads/lead5.png",
+      "alt": "Examples of Leads"
+    },
+    {
+      "url": "static/gallery/leads/lead3.png",
+      "alt": "Examples of Leads"
+    },
+    {
+      "url": "static/gallery/leads/lead4.png",
+      "alt": "Examples of Leads"
+    }
+  ]
+}

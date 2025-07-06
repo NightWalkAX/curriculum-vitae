@@ -1,0 +1,9 @@
+{
+  "name": "Leads",
+  "short": "API para obtener leads desde un currículum vitae",
+  "description": "Recibe los datos a traves de formulario, los almacena en una base de datos y los envia al administrador del bot de telegram al que fue asignado.",
+  "links": {
+    "Demo": "https://nightwalkax.github.io/curriculum-vitae/",
+    "GitHub": "https://github.com/NightWalkAX/lead-cv"
+  }
+}

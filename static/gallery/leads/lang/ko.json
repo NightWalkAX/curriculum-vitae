@@ -1,0 +1,9 @@
+{
+  "name": "이력서",
+  "short": "지금 보고 계신 이 페이지",
+  "description": "랜딩 페이지, 14개 언어로의 자동 번역, 연락처 양식 및 자동 주간/야간 모드가 있는 이력서 페이지입니다.",
+  "links": {
+    "Demo": "https://nightwalkax.github.io/curriculum-vitae/",
+    "GitHub": "https://github.com/NightWalkAX/curriculum-vitae"
+  }
+}

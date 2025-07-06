@@ -1,0 +1,9 @@
+{
+  "name": "履歴書",
+  "short": "あなたが今見ているこのページ",
+  "description": "ランディングページ、14言語への自動翻訳、お問い合わせフォーム、自動昼夜モードを備えた履歴書ページ。",
+  "links": {
+    "Demo": "https://nightwalkax.github.io/curriculum-vitae/",
+    "GitHub": "https://github.com/NightWalkAX/curriculum-vitae"
+  }
+}

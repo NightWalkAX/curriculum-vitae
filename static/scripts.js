@@ -276,11 +276,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     await loadGalleryProjects();
     await loadTranslations(savedLang || detectBrowserLang());
 });
-async function loadGalleryProjects() {
+let currentPage = 1;
+const CARDS_PER_PAGE = 9; // 3x3 grid
+
+async function loadGalleryProjects(page = 1) {
     const thumbs = document.getElementById("galeria-thumbs");
     if (thumbs) {
-        thumbs.innerHTML = ""; // Limpia el grid
-        thumbs.className = "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"; // Tailwind grid
+        thumbs.innerHTML = "";
+        thumbs.className = "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6";
     }
 
     let projects = [];
@@ -290,7 +293,15 @@ async function loadGalleryProjects() {
     } catch {
         projects = [];
     }
-    for (const projectName of projects) {
+
+    // PAGINACIÓN
+    const totalPages = Math.ceil(projects.length / CARDS_PER_PAGE);
+    currentPage = Math.max(1, Math.min(page, totalPages));
+    const start = (currentPage - 1) * CARDS_PER_PAGE;
+    const end = start + CARDS_PER_PAGE;
+    const pageProjects = projects.slice(start, end);
+
+    for (const projectName of pageProjects) {
         try {
             // Carga datos generales del proyecto
             const [projectRes, assetsRes] = await Promise.all([
@@ -326,50 +337,97 @@ async function loadGalleryProjects() {
             }
 
             // Unifica los datos para la tarjeta y el modal
-            const data = {
-                ...projectData,
-                ...texts,
-                images: assetsData.images || [],
-                thumbnail
+// Normaliza las imágenes para que siempre sean objetos {url, thumbnail, alt}
+let images = [];
+if (Array.isArray(assetsData.images)) {
+    images = assetsData.images.map(img => {
+        if (typeof img === "string") {
+            return { url: img, thumbnail: img, alt: projectData.name || "" };
+        } else if (typeof img === "object" && img !== null) {
+            return {
+                url: img.url || img.thumbnail || "placeholder.jpg",
+                thumbnail: img.thumbnail || img.url || "placeholder.jpg",
+                alt: img.alt || projectData.name || ""
             };
-            createGalleryCard(data);
+        }
+        return { url: "placeholder.jpg", thumbnail: "placeholder.jpg", alt: projectData.name || "" };
+    });
+}
+
+// Unifica los datos para la tarjeta y el modal
+const data = {
+    ...projectData,
+    ...texts,
+    images,
+    thumbnail
+};
+createGalleryCard(data);
         } catch (e) {
             console.error("Error loading project", projectName, e);
         }
     }
+
+    // Renderiza controles de paginación
+    renderPagination(totalPages);
+}
+
+function renderPagination(totalPages) {
+    let pagination = document.getElementById("gallery-pagination");
+    if (!pagination) {
+        pagination = document.createElement("div");
+        pagination.id = "gallery-pagination";
+        pagination.className = "flex justify-center gap-2 mt-6";
+        document.getElementById("galeria-thumbs").after(pagination);
+    }
+    pagination.innerHTML = "";
+
+    for (let i = 1; i <= totalPages; i++) {
+        const btn = document.createElement("button");
+        btn.textContent = i;
+        btn.className = "px-3 py-1 rounded " + (i === currentPage ? "bg-violet-600 text-white font-bold" : "bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-100");
+        btn.onclick = () => loadGalleryProjects(i);
+        pagination.appendChild(btn);
+    }
 }
 function createGalleryCard(data) {
     const card = document.createElement("div");
-    card.className = "bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden cursor-pointer transform transition duration-300 hover:scale-105 hover:shadow-2xl flex flex-col items-center justify-center group";
-    card.style.width = "100%";
-    card.style.aspectRatio = "1/1";
+    card.className = "relative bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden cursor-pointer transform transition duration-300 hover:scale-105 hover:shadow-2xl group w-full aspect-square";
     card.tabIndex = 0;
     card.setAttribute("role", "button");
     card.setAttribute("aria-label", data.name);
 
-    // Imagen cuadrada
-    const img = document.createElement("img");
-    img.src = data.images?.[0]?.url || "placeholder.jpg";
-    img.alt = data.images?.[0]?.alt || data.name;
-    img.className = "w-full h-2/3 object-cover rounded-t-2xl";
-    img.style.aspectRatio = "1/1";
-    card.appendChild(img);
-
-    // Nombre del proyecto
-    const title = document.createElement("div");
-    title.className = "font-bold text-center text-gray-800 dark:text-gray-100 text-lg mt-2";
-    title.textContent = data.name;
-    card.appendChild(title);
-
-    // Breve descripción
-    if (data.short) {
-        const desc = document.createElement("div");
-        desc.className = "text-gray-600 dark:text-gray-300 text-sm text-center mt-1";
-        desc.textContent = data.short;
-        card.appendChild(desc);
+    // Usa el thumbnail de la primera imagen, o el thumbnail directo, o placeholder
+    let imgSrc = "placeholder.jpg";
+    if (data.thumbnail && typeof data.thumbnail === "string") {
+        imgSrc = data.thumbnail;
+    } else if (data.images?.[0]?.thumbnail) {
+        imgSrc = data.images[0].thumbnail;
+    } else if (data.images?.[0]?.url) {
+        imgSrc = data.images[0].url;
     }
 
-    // Evento para abrir el modal
+    const img = document.createElement("img");
+    img.src = imgSrc;
+    img.alt = data.images?.[0]?.alt || data.name;
+    img.className = "w-full h-full object-cover rounded-2xl";
+    card.appendChild(img);
+
+    // Overlay de texto encima de la imagen
+    const overlay = document.createElement("div");
+    overlay.className = "absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent flex flex-col justify-end p-4 pointer-events-none";
+    const title = document.createElement("div");
+    title.className = "font-bold text-white text-lg mb-1 drop-shadow";
+    title.textContent = data.name;
+    overlay.appendChild(title);
+
+    if (data.short) {
+        const desc = document.createElement("div");
+        desc.className = "text-gray-200 text-sm mb-1 drop-shadow";
+        desc.textContent = data.short;
+        overlay.appendChild(desc);
+    }
+    card.appendChild(overlay);
+
     card.onclick = () => openProjectModal(data);
     card.onkeydown = (e) => { if (e.key === "Enter" || e.key === " ") openProjectModal(data); };
 

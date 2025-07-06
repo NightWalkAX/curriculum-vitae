@@ -1,0 +1,36 @@
+{
+  "thumbnail": {
+    "url": "static/gallery/cronox/cronox.png",
+    "alt": "Main view of Cronox Investing"
+  },
+  "images": [
+    {
+      "url": "static/gallery/cronox/cronox.png",
+      "alt": "Main view of Cronox Investing"
+    },
+    {
+      "url": "static/gallery/cronox/cronox1.png",
+      "alt": "Examples of Cronox Investing"
+    },
+    {
+      "url": "static/gallery/cronox/cronox2.png",
+      "alt": "Examples of Cronox Investing"
+    },
+    {
+      "url": "static/gallery/cronox/cronox3.png",
+      "alt": "Examples of Cronox Investing"
+    },
+    {
+      "url": "static/gallery/cronox/cronox4.png",
+      "alt": "Examples of Cronox Investing"
+    },
+    {
+      "url": "static/gallery/cronox/cronox5.png",
+      "alt": "Examples of Cronox Investing"
+    },
+        {
+      "url": "static/gallery/cronox/cronox6.png",
+      "alt": "Examples of Cronox Investing"
+    }
+  ]
+}

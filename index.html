@@ -60,6 +60,7 @@
           <a href="https://github.com/NightWalkAX" target="_blank" class="hover:text-violet-200 transition" title="GitHub"><i class="fab fa-github text-2xl"></i></a>
           <a href="https://www.codewars.com/users/nightwalkax" target="_blank" class="hover:text-violet-200 transition" title="Codewars"><i class="fas fa-code text-2xl"></i></a>
           <a href="#" class="hover:text-violet-200 transition" title="LinkedIn"><i class="fab fa-linkedin text-2xl"></i></a>
+          <a href="https://www.trendtechai.com" class="hover:text-violet-200 transition" target="_blank" title="Visit my blog TrendTechAI!!"><i class="fas fa-robot text-2xl"></i></a>
         </div>
       </div>
     </div>
@@ -70,6 +71,19 @@
     <h2 class="text-3xl font-bold mb-8 text-center text-violet-700 dark:text-violet-300" data-i18n="projects.title">Proyectos Destacados</h2>
     <div id="proyectos" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
       <!-- Proyectos se insertan por JS -->
+       <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden cursor-pointer hover:scale-105 transition transform border border-violet-100 dark:border-violet-900 aos-init aos-animate" data-aos="zoom-in">
+      <img src="https://placehold.co/400x300/818cf8/fff?text=TrendTechAI" alt="Blog sobre IA y Tecnología" class="w-full h-40 object-cover">
+      <div class="p-4">
+        <h3 class="font-bold text-lg mb-2 text-violet-700 dark:text-violet-300">Blog sobre IA y Tecnología</h3>
+        <p class="text-gray-700 dark:text-gray-300 mb-2">Blog destinado para mi bot generador de noticias donde comparto artículos sobre inteligencia artificial, desarrollo y tecnología en general.</p>
+        <div class="flex flex-wrap gap-2 mb-2">
+          <span class="bg-violet-100 text-violet-800 px-2 py-1 rounded-full text-xs">Wordpress</span>
+        </div>
+        <a href="https://www.trendtechai.com" target="_blank" class="text-violet-600 hover:underline text-sm flex items-center gap-1">
+          <i class="fas fa-robot"></i> trendtechai.com
+        </a>
+      </div>
+    </div>
     </div>
     <div id="modalProyecto" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 hidden">
       <div class="bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-6 w-full max-w-lg relative animate-fadeIn">
@@ -290,26 +304,26 @@ document.addEventListener("DOMContentLoaded", () => {
   // Proyectos de ejemplo (puedes reemplazar por fetch a tu JSON)
   const proyectos = [
     {
-      nombre: "API de Gestión de Usuarios",
-      descripcion: "API RESTful para gestión de usuarios, autenticación JWT y roles.",
-      imagen: "https://placehold.co/400x300/7c3aed/fff?text=API+Usuarios",
-      tecnologias: ["Python", "Flask", "JWT", "SQLAlchemy"],
-      link: "https://github.com/NightWalkAX/api-usuarios"
+      nombre: "Generador de Posts de Noticias con Web Scraping e IA (EN PROCESO)",
+      descripcion: "Bot que genera posts de noticias utilizando scraping, analisis de keywords y modelos de IA. Calibrable desde un Bot de Telegram.",
+      imagen: "https://placehold.co/400x300/7c3aed/fff?text=News+Generator",
+      tecnologias: ["Python", "Flask", "Pandas", "SQLAlchemy","HuggingFace","Google","BeautifulSoup","Trafilatura","Pytrends", "Requests"],
+      link: "#"
     },
     {
       nombre: "Bot de Telegram para Leads",
       descripcion: "Bot que automatiza la captura y gestión de leads desde Telegram.",
-      imagen: "https://placehold.co/400x300/6366f1/fff?text=Bot+Telegram",
-      tecnologias: ["Python", "Telegram Bot", "SQLite"],
-      link: "https://github.com/NightWalkAX/telegram-leads-bot"
+      imagen: "https://placehold.co/400x300/6366f1/fff?text=Leads+Collector",
+      tecnologias: ["Python", "Requests", "SQLite"],
+      link: "https://github.com/NightWalkAX/lead-cv"
     },
     {
-      nombre: "Sistema de Autenticación Universal",
-      descripcion: "Módulo reutilizable para autenticación en proyectos web y juegos.",
-      imagen: "https://placehold.co/400x300/818cf8/fff?text=Auth+Universal",
-      tecnologias: ["Python", "FastAPI", "PostgreSQL"],
-      link: "https://github.com/NightWalkAX/auth-universal"
-    }
+      nombre: "Plataforma de inversiones en Criptomonedas.",
+      descripcion: "Esta es una plataforma de inversión en criptomonedas que permite a los usuarios gestionar sus modulos de inversiones de manera eficiente y segura. Tiene marketing multinivel (4 niveles), suscripciones etc.",
+      imagen: "https://placehold.co/400x300/818cf8/fff?text=Cronox+Investing",
+      tecnologias: ["Python", "FastAPI", "PostgreSQL", "JWT", "Docker", "Redis","PyUSDT","Celery"],
+      link: "https://github.com/NightWalkAX/cronox-demo"
+    },
   ];
 
   // Renderiza proyectos
