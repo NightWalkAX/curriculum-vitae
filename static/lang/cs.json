@@ -1,0 +1,113 @@
+{
+  "header": {
+    "title": "José Yoel Mendoza Leyva - Backendový vývojář",
+    "name": "José Yoel Mendoza Leyva",
+    "role": "Backendový vývojář",
+    "email": "jymendev@gmail.com",
+    "phone": "+53 53482187",
+    "location": "Holguín, Kuba"
+  },
+  "profile": {
+    "title": "Profesionální profil",
+    "description": "Samouk backendový vývojář s 7 měsíci zkušeností v návrhu, vývoji a implementaci RESTful API. Specializuji se na Python s frameworky Flask a FastAPI, správu SQL databází (MySQL, PostgreSQL, SQLite) a automatizaci pomocí Telegram botů. Zaměřuji se na automatizované testování s Pytest a dokumentaci API pomocí Swagger. Rychle se učím a přizpůsobuji, orientuji se na praktická a efektivní řešení."
+  },
+  "experience": {
+    "title": "Zkušenosti s osobními projekty",
+    "item_1": "Kompletní vývoj backendových projektů pomocí Flask a FastAPI.",
+    "item_2": "Implementace databází s SQLAlchemy a správa migrací s Alembic.",
+    "item_3": "Vytváření a implementace Telegram botů pro automatizaci procesů, včetně zachycení leadů a hromadného odesílání e-mailů.",
+    "item_4": "Návrh univerzálního opakovaně použitelného autentizačního systému pro různé projekty (web, herní servery, AI).",
+    "item_5": "Disciplinované používání Git pro správu verzí, pracuji samostatně.",
+    "item_6": "Dokumentace API pomocí Swagger a automatizované testování s Pytest pro zajištění kvality.",
+    "why_me": "Jako backendový vývojář specializovaný na Python nabízím efektivní a škálovatelná řešení pro vaše projekty. Moje zkušenosti s RESTful API, SQL databázemi a automatizací s Telegram boty mi umožňují rychle se přizpůsobit novým výzvám. Pracuji s Flask a FastAPI, aplikuji osvědčené postupy testování a dokumentace (Pytest, Swagger). Vynikám svou samostatností, rychlým učením a odhodláním ke kvalitě. Pokud hledáte odpovědného, proaktivního a výsledky orientovaného profesionála, jsem ideální volbou pro posílení vašeho backendového vývojového týmu."
+  },
+  "gallery": {
+    "title": "Galerie projektů",
+    "description": "Prozkoumejte mé osobní projekty, které ukazují mé dovednosti v backendovém vývoji. Každá miniatura vás zavede k detailnímu pohledu na projekt."
+  },
+  "skills": {
+    "title": "Technické dovednosti",
+    "languages": "Jazyky",
+    "python": "Python (Pokročilý)",
+    "javascript": "Javascript (Základní)",
+    "database": "Databáze",
+    "tools": "Nástroje"
+  },
+  "education": {
+    "title": "Vzdělání a školení",
+    "description": "Samouk zaměřený na praktické učení a neustálé aktualizování znalostí."
+  },
+  "languages": {
+    "title": "Jazyky",
+    "spanish": "Španělština (rodilý mluvčí)",
+    "english": "Angličtina (plynule)"
+  },
+  "additional": {
+    "title": "Další informace",
+    "codewars": "Úroveň 4kyu na Codewars (programovací výzvy)",
+    "ability": "Vysoká schopnost samostatné práce a rychlého učení",
+    "will": "Hledám připojení k týmu, abych mohl dále profesionálně růst a získat zkušenosti s prací v týmu"
+  },
+  "contact": {
+    "title": "Kontakt pro náboráře",
+    "company": "Název společnosti",
+    "email": "Kontaktní e-mail",
+    "phone": "Kontaktní číslo",
+    "position": "Nabízená pozice",
+    "button": "Odeslat",
+    "success": "Děkujeme za váš zájem! Brzy vás budu kontaktovat."
+  },
+  "footer": {
+    "copyright": "© 2025 José Yoel Mendoza Leyva. Všechna práva vyhrazena.",
+    "developed": "Vytvořeno s HTML, Tailwind CSS a JavaScript"
+  },
+  "hero.title": "José Yoel Mendoza Leyva",
+  "hero.role": "Backendový vývojář",
+  "hero.description": "Specializuji se na Python, RESTful API, SQL databáze a automatizaci s Telegram boty.",
+  "hero.cta": "📄 Přečtěte si můj kompletní životopis",
+  "hero.email": "jymendev@gmail.com",
+  "hero.github": "NightWalkAX",
+  "hero.codewars": "jymendev",
+  "hero.linkedin": "LinkedIn",
+  "projects.title": "Vybrané projekty",
+  "projects.github": "Zobrazit na GitHubu",
+  "skills.title": "Technické dovednosti",
+  "skills.languages": "Jazyky",
+  "skills.python": "Python",
+  "skills.javascript": "JavaScript",
+  "skills.sql": "SQL",
+  "skills.frameworks": "Frameworky",
+  "skills.flask": "Flask",
+  "skills.fastapi": "FastAPI",
+  "skills.tools": "Nástroje",
+  "skills.git": "Git",
+  "skills.pytest": "Pytest",
+  "skills.swagger": "Swagger",
+  "skills.postman": "Postman",
+  "skills.alembic": "Alembic",
+  "skills.telegram": "Telegram Bot",
+  "skills.databases": "Databáze",
+  "skills.mysql": "MySQL",
+  "skills.postgresql": "PostgreSQL",
+  "skills.sqlite": "SQLite",
+  "skills.sqlalchemy": "SQLAlchemy",
+  "testimonials.title": "Reference",
+  "testimonials.1.text": "José Yoel je velmi oddaný vývojář, rychle se učí a dodává kvalitní řešení.",
+  "testimonials.1.author": "Anonymní spolupracovník",
+  "testimonials.1.role": "Projektový tým",
+  "testimonials.2.text": "Vyniká svou samostatností a schopností řešit složité backendové problémy.",
+  "testimonials.2.author": "Technický mentor",
+  "testimonials.2.role": "Python komunita",
+  "contact.title": "Kontakt",
+  "contact.name": "Jméno",
+  "contact.email": "E-mail",
+  "contact.message": "Zpráva",
+  "contact.send": "Odeslat",
+  "contact.success": "Děkujeme za vaši zprávu!",
+  "contact.error": "Došlo k chybě. Zkuste to prosím znovu.",
+  "footer.copyright": "© 2025 José Yoel Mendoza Leyva. Všechna práva vyhrazena.",
+  "footer.developed": "Vytvořeno s HTML, Tailwind CSS a JavaScript",
+  "lang.select": "Jazyk",
+  "lang.es": "Španělština",
+  "lang.en": "Angličtina"
+}

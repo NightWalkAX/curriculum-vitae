@@ -1,0 +1,113 @@
+{
+  "header": {
+    "title": "José Yoel Mendoza Leyva - バックエンド開発者",
+    "name": "José Yoel Mendoza Leyva",
+    "role": "バックエンド開発者",
+    "email": "jymendev@gmail.com",
+    "phone": "+53 53482187",
+    "location": "ホルギン, キューバ"
+  },
+  "profile": {
+    "title": "プロフェッショナルプロフィール",
+    "description": "RESTful APIの設計、開発、実装において7ヶ月の経験を持つ独学のバックエンド開発者。FlaskおよびFastAPIフレームワークを使用したPython、SQLデータベース管理（MySQL、PostgreSQL、SQLite）、Telegramボットを使用した自動化に特化。Pytestを使用した自動テストとSwaggerを使用したAPIドキュメントに焦点を当てています。迅速な学習と適応能力を持ち、実用的で効率的なソリューションを志向しています。"
+  },
+  "experience": {
+    "title": "個人プロジェクトの経験",
+    "item_1": "FlaskおよびFastAPIを使用したバックエンドプロジェクトの完全な開発。",
+    "item_2": "SQLAlchemyを使用したデータベースの実装とAlembicを使用したマイグレーション管理。",
+    "item_3": "リードキャプチャや一括メール送信を含むプロセス自動化のためのTelegramボットの作成と実装。",
+    "item_4": "複数のプロジェクト（Web、ゲームサーバー、AI）向けの再利用可能なユニバーサル認証システムの設計。",
+    "item_5": "独立して作業しながら、バージョン管理のためにGitを規律正しく使用。",
+    "item_6": "品質を確保するためのSwaggerを使用したAPIドキュメントとPytestを使用した自動テスト。",
+    "why_me": "Pythonに特化したバックエンド開発者として、プロジェクトに効率的でスケーラブルなソリューションを提供します。RESTful API、SQLデータベース、Telegramボットを使用した自動化の経験により、新しい課題に迅速に適応できます。FlaskおよびFastAPIを使用し、テストとドキュメント（Pytest、Swagger）のベストプラクティスを適用します。自律性、迅速な学習、品質へのコミットメントが特徴です。責任感があり、積極的で結果志向のプロフェッショナルをお探しの場合、バックエンド開発チームを強化するための理想的な選択肢です。"
+  },
+  "gallery": {
+    "title": "プロジェクトギャラリー",
+    "description": "バックエンド開発スキルを示す個人プロジェクトを探索してください。各サムネイルはプロジェクトの詳細ビューに移動します。"
+  },
+  "skills": {
+    "title": "技術スキル",
+    "languages": "言語",
+    "python": "Python (上級)",
+    "javascript": "Javascript (基礎)",
+    "database": "データベース",
+    "tools": "ツール"
+  },
+  "education": {
+    "title": "教育とトレーニング",
+    "description": "実践的な学習と継続的な更新に焦点を当てた独学の学生。"
+  },
+  "languages": {
+    "title": "言語",
+    "spanish": "スペイン語 (ネイティブ)",
+    "english": "英語 (流暢)"
+  },
+  "additional": {
+    "title": "追加情報",
+    "codewars": "Codewarsで4kyuレベル (プログラミングチャレンジ)",
+    "ability": "独立した作業と迅速な学習の高い能力",
+    "will": "専門的に成長し、協力的な経験を得るためにチームに参加したい"
+  },
+  "contact": {
+    "title": "採用担当者向け連絡先",
+    "company": "会社名",
+    "email": "連絡先メール",
+    "phone": "連絡先電話番号",
+    "position": "提供ポジション",
+    "button": "送信",
+    "success": "ご興味いただきありがとうございます！すぐにご連絡いたします。"
+  },
+  "footer": {
+    "copyright": "© 2025 José Yoel Mendoza Leyva. 全著作権所有.",
+    "developed": "HTML、Tailwind CSS、JavaScriptで開発"
+  },
+  "hero.title": "José Yoel Mendoza Leyva",
+  "hero.role": "バックエンド開発者",
+  "hero.description": "Python、RESTful API、SQLデータベース、Telegramボットによる自動化に特化。",
+  "hero.cta": "📄 私の完全な履歴書を読む",
+  "hero.email": "jymendev@gmail.com",
+  "hero.github": "NightWalkAX",
+  "hero.codewars": "jymendev",
+  "hero.linkedin": "LinkedIn",
+  "projects.title": "注目のプロジェクト",
+  "projects.github": "GitHubで見る",
+  "skills.title": "技術スキル",
+  "skills.languages": "言語",
+  "skills.python": "Python",
+  "skills.javascript": "JavaScript",
+  "skills.sql": "SQL",
+  "skills.frameworks": "フレームワーク",
+  "skills.flask": "Flask",
+  "skills.fastapi": "FastAPI",
+  "skills.tools": "ツール",
+  "skills.git": "Git",
+  "skills.pytest": "Pytest",
+  "skills.swagger": "Swagger",
+  "skills.postman": "Postman",
+  "skills.alembic": "Alembic",
+  "skills.telegram": "Telegramボット",
+  "skills.databases": "データベース",
+  "skills.mysql": "MySQL",
+  "skills.postgresql": "PostgreSQL",
+  "skills.sqlite": "SQLite",
+  "skills.sqlalchemy": "SQLAlchemy",
+  "testimonials.title": "推薦文",
+  "testimonials.1.text": "José Yoelは非常に献身的な開発者で、迅速に学び、質の高いソリューションを提供します。",
+  "testimonials.1.author": "匿名の協力者",
+  "testimonials.1.role": "プロジェクトチーム",
+  "testimonials.2.text": "彼は自律性と複雑なバックエンド問題を解決する能力で際立っています。",
+  "testimonials.2.author": "技術メンター",
+  "testimonials.2.role": "Pythonコミュニティ",
+  "contact.title": "連絡先",
+  "contact.name": "名前",
+  "contact.email": "メール",
+  "contact.message": "メッセージ",
+  "contact.send": "送信",
+  "contact.success": "メッセージありがとうございます！",
+  "contact.error": "エラーが発生しました。もう一度試してください。",
+  "footer.copyright": "© 2025 José Yoel Mendoza Leyva. 全著作権所有.",
+  "footer.developed": "HTML、Tailwind CSS、JavaScriptで開発",
+  "lang.select": "言語",
+  "lang.es": "スペイン語",
+  "lang.en": "英語"
+}
